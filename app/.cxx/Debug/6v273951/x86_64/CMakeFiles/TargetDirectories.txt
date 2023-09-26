@@ -1,0 +1,4 @@
+/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/.cxx/Debug/6v273951/x86_64/CMakeFiles/native_app_glue.dir
+/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/.cxx/Debug/6v273951/x86_64/CMakeFiles/MyMLApp.dir
+/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/.cxx/Debug/6v273951/x86_64/CMakeFiles/edit_cache.dir
+/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/.cxx/Debug/6v273951/x86_64/CMakeFiles/rebuild_cache.dir

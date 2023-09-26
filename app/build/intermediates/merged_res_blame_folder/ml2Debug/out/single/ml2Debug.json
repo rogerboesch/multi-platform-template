@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/build/intermediates/merged_res/ml2Debug/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/build/intermediates/merged_res/ml2Debug/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/build/intermediates/merged_res/ml2Debug/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/res/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/build/intermediates/merged_res/ml2Debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    }
+]

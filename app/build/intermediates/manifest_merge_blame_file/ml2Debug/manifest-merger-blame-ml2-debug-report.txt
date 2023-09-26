@@ -1,0 +1,85 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<!-- BEGIN_INCLUDE(manifest) -->
+3<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+4    package="com.magicleap.rbo.texture_buffer"
+5    android:versionCode="1"
+6    android:versionName="1.0" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="29"
+9-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml
+10        android:targetSdkVersion="29" />
+10-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml
+11
+12    <uses-permission android:name="com.magicleap.permission.HAND_TRACKING" />
+12-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:35:5-78
+12-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:35:22-75
+13
+14    <uses-feature
+14-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:36:5-81
+15        android:name="com.magicleap.api_level"
+15-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:36:19-57
+16        android:version="20" />
+16-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:36:58-78
+17
+18    <!-- This .apk has no Java code itself, so set hasCode to false. -->
+19    <application
+19-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:9:5-33:19
+20        android:allowBackup="false"
+20-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:9:18-45
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.0.1] /Users/roger/.gradle/caches/transforms-3/77dbd47f80e31997047b3597484ec0bc/transformed/core-1.0.1/AndroidManifest.xml:22:18-86
+22        android:debuggable="true"
+22-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:13:18-43
+23        android:extractNativeLibs="false"
+24        android:fullBackupContent="false"
+24-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:10:18-51
+25        android:hasCode="false"
+25-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:14:18-41
+26        android:icon="@mipmap/ic_launcher"
+26-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:11:18-52
+27        android:label="@string/app_name" >
+27-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:12:18-50
+28
+29        <!-- Our activity is the built-in NativeActivity framework class. This will take care of integrating with our NDK code. -->
+30        <activity
+30-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:17:9-31:20
+31            android:name="android.app.NativeActivity"
+31-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:17:19-60
+32            android:configChanges="orientation|keyboardHidden"
+32-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:19:17-67
+33            android:label="@string/app_name"
+33-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:18:17-49
+34            android:launchMode="singleTask" >
+34-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:20:17-48
+35            <meta-data
+35-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:22:13-99
+36                android:name="com.magicleap.augmented_reality_only"
+36-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:22:24-75
+37                android:value="true" />
+37-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:22:76-96
+38            <meta-data
+38-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:23:13-84
+39                android:name="android.app.lib_name"
+39-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:23:24-59
+40                android:value="MyApp" />
+40-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:23:60-81
+41
+42            <!-- Tell NativeActivity the name of our .so -->
+43            <intent-filter>
+43-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:26:13-30:29
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:27:17-69
+44-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:27:25-66
+45
+46                <category android:name="android.intent.category.DEFAULT" />
+46-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:28:17-76
+46-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:28:27-73
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:29:17-77
+47-->/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/AndroidManifest.xml:29:27-74
+48            </intent-filter>
+49        </activity>
+50    </application>
+51
+52</manifest>

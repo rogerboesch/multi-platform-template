@@ -1,0 +1,7 @@
+Executable : /opt/homebrew/bin/ninja
+arguments : 
+-C
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/.cxx/Debug/d6t6w4e5/x86_64
+texture_buffer
+jvmArgs : 
+

@@ -1,0 +1,7 @@
+# ninja log v5
+3	41	1686906588449795337	CMakeFiles/texture_buffer.dir/base/rb_log.c.o	549cf4f87cfd4abe
+4	50	1686906588459919064	CMakeFiles/texture_buffer.dir/base/rb_vtext.c.o	7817776478544fe3
+2	94	1686906588503248309	CMakeFiles/native_app_glue.dir/Users/roger/Library/Android/sdk/ndk/25.0.8775105/sources/android/native_app_glue/android_native_app_glue.c.o	ea6f91124f5bb4a7
+94	186	1686906588596715000	libnative_app_glue.a	efd7fdd23a948cb7
+4	1032	1686906589434136279	CMakeFiles/texture_buffer.dir/imgui/text_editor.cpp.o	e2ab98208a4869e9
+2	1081	1686906589485119287	CMakeFiles/texture_buffer.dir/skeleton.cpp.o	5164fc678405ab6e

@@ -1,0 +1,7 @@
+/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/cpp/base/rb_base.h
+/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/cpp/base/rb_log.h
+/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/cpp/base/rb_keys.h
+/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/cpp/base/rb_vtext.h
+/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/cpp/imgui/text_editor.h
+/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/cpp/myapp/ml_myapp.hpp
+/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/cpp/myapp/rb_file.hpp

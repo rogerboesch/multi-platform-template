@@ -1,0 +1,2 @@
+com/magicleap/rbo/MyApp/BuildConfig.java
+ com.magicleap.rbo.MyApp.BuildConfig

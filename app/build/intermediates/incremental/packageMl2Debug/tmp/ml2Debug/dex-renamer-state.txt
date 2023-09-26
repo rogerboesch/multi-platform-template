@@ -1,0 +1,10 @@
+#Tue Sep 26 13:30:57 CEST 2023
+base.2=/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/build/intermediates/dex/ml2Debug/mergeProjectDexMl2Debug/4/classes.dex
+path.2=4/classes.dex
+base.1=/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/build/intermediates/dex/ml2Debug/mergeProjectDexMl2Debug/0/classes.dex
+path.1=0/classes.dex
+base.0=/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/build/intermediates/dex/ml2Debug/mergeExtDexMl2Debug/classes.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+path.0=classes.dex

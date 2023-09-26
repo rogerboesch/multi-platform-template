@@ -1,0 +1,12 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/opt/homebrew/Cellar/cmake/3.26.4/share/cmake/Modules/CMakeDetermineSystem.cmake:199 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The target system is: Android - 1 - x86_64
+      The host system is: Darwin - 22.4.0 - arm64
+...

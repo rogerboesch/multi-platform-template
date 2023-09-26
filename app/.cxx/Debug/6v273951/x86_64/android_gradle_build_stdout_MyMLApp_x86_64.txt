@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/.cxx/Debug/6v273951/x86_64'
+ninja: no work to do.

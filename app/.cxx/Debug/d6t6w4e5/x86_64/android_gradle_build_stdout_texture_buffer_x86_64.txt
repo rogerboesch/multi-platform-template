@@ -1,0 +1,146 @@
+ninja: Entering directory `/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/.cxx/Debug/d6t6w4e5/x86_64'
+[1/50] Building C object CMakeFiles/texture_buffer.dir/base/rb_log.c.o
+[2/50] Building C object CMakeFiles/texture_buffer.dir/base/rb_vtext.c.o
+[3/50] Building C object CMakeFiles/native_app_glue.dir/Users/roger/Library/Android/sdk/ndk/25.0.8775105/sources/android/native_app_glue/android_native_app_glue.c.o
+[4/50] Building CXX object CMakeFiles/texture_buffer.dir/engine3d/rb_math.cpp.o
+FAILED: CMakeFiles/texture_buffer.dir/engine3d/rb_math.cpp.o 
+/Users/roger/Library/Android/sdk/ndk/25.0.8775105/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android29 --sysroot=/Users/roger/Library/Android/sdk/ndk/25.0.8775105/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DML_LUMIN -Dtexture_buffer_EXPORTS -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/components -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/base -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/imgui -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/lua -I/Users/roger/MagicLeap/mlsdk/v1.3.0-dev2/samples/c_api/app_framework/build/install/cmake/../ml2/Debug/include -I/Users/roger/Library/Android/sdk/ndk/25.0.8775105/sources/android/native_app_glue -I/Users/roger/MagicLeap/mlsdk/v1.3.0-dev2/cmake/../include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -std=gnu++17 -fPIC -Wall -Werror -MD -MT CMakeFiles/texture_buffer.dir/engine3d/rb_math.cpp.o -MF CMakeFiles/texture_buffer.dir/engine3d/rb_math.cpp.o.d -o CMakeFiles/texture_buffer.dir/engine3d/rb_math.cpp.o -c /Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_math.cpp
+In file included from /Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_math.cpp:9:
+In file included from /Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_math.hpp:11:
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_types.hpp:39:23: error: suggest braces around initialization of subobject [-Werror,-Wmissing-braces]
+    float m[4][4] = { 0 };
+                      ^
+                      {}
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_math.cpp:178:23: error: suggest braces around initialization of subobject [-Werror,-Wmissing-braces]
+    Mat4x4 matrix = { 0 };
+                      ^
+                      {}
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_math.cpp:188:23: error: suggest braces around initialization of subobject [-Werror,-Wmissing-braces]
+    Mat4x4 matrix = { 0 };
+                      ^
+                      {}
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_math.cpp:200:23: error: suggest braces around initialization of subobject [-Werror,-Wmissing-braces]
+    Mat4x4 matrix = { 0 };
+                      ^
+                      {}
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_math.cpp:212:23: error: suggest braces around initialization of subobject [-Werror,-Wmissing-braces]
+    Mat4x4 matrix = { 0 };
+                      ^
+                      {}
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_math.cpp:224:23: error: suggest braces around initialization of subobject [-Werror,-Wmissing-braces]
+    Mat4x4 matrix = { 0 };
+                      ^
+                      {}
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_math.cpp:249:23: error: suggest braces around initialization of subobject [-Werror,-Wmissing-braces]
+    Mat4x4 matrix = { 0 };
+                      ^
+                      {}
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_math.cpp:263:23: error: suggest braces around initialization of subobject [-Werror,-Wmissing-braces]
+    Mat4x4 matrix = { 0 };
+                      ^
+                      {}
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_math.cpp:284:23: error: suggest braces around initialization of subobject [-Werror,-Wmissing-braces]
+    Mat4x4 matrix = { 0 };
+                      ^
+                      {}
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_math.cpp:301:23: error: suggest braces around initialization of subobject [-Werror,-Wmissing-braces]
+    Mat4x4 matrix = { 0 };
+                      ^
+                      {}
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_math.cpp:323:23: error: suggest braces around initialization of subobject [-Werror,-Wmissing-braces]
+    Mat4x4 matrix = { 0 };
+                      ^
+                      {}
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_math.cpp:335:23: error: suggest braces around initialization of subobject [-Werror,-Wmissing-braces]
+    Mat4x4 matrix = { 0 };
+                      ^
+                      {}
+12 errors generated.
+[5/50] Linking C static library libnative_app_glue.a
+[6/50] Building CXX object CMakeFiles/texture_buffer.dir/engine3d/game_vexxon.cpp.o
+FAILED: CMakeFiles/texture_buffer.dir/engine3d/game_vexxon.cpp.o 
+/Users/roger/Library/Android/sdk/ndk/25.0.8775105/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android29 --sysroot=/Users/roger/Library/Android/sdk/ndk/25.0.8775105/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DML_LUMIN -Dtexture_buffer_EXPORTS -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/components -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/base -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/imgui -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/lua -I/Users/roger/MagicLeap/mlsdk/v1.3.0-dev2/samples/c_api/app_framework/build/install/cmake/../ml2/Debug/include -I/Users/roger/Library/Android/sdk/ndk/25.0.8775105/sources/android/native_app_glue -I/Users/roger/MagicLeap/mlsdk/v1.3.0-dev2/cmake/../include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -std=gnu++17 -fPIC -Wall -Werror -MD -MT CMakeFiles/texture_buffer.dir/engine3d/game_vexxon.cpp.o -MF CMakeFiles/texture_buffer.dir/engine3d/game_vexxon.cpp.o.d -o CMakeFiles/texture_buffer.dir/engine3d/game_vexxon.cpp.o -c /Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/game_vexxon.cpp
+In file included from /Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/game_vexxon.cpp:24:
+In file included from /Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_engine.hpp:11:
+In file included from /Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_math.hpp:11:
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_types.hpp:39:23: error: suggest braces around initialization of subobject [-Werror,-Wmissing-braces]
+    float m[4][4] = { 0 };
+                      ^
+                      {}
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/game_vexxon.cpp:810:9: error: delete called on non-final 'Vexxon' that has virtual functions but non-virtual destructor [-Werror,-Wdelete-non-abstract-non-virtual-dtor]
+        delete game;
+        ^
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/game_vexxon.cpp:102:11: error: private field '_spaceshipMesh' is not used [-Werror,-Wunused-private-field]
+    Mesh* _spaceshipMesh;
+          ^
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/game_vexxon.cpp:107:10: error: private field '_topView' is not used [-Werror,-Wunused-private-field]
+    bool _topView = false;
+         ^
+4 errors generated.
+[7/50] Building CXX object CMakeFiles/texture_buffer.dir/engine3d/rb_engine.cpp.o
+FAILED: CMakeFiles/texture_buffer.dir/engine3d/rb_engine.cpp.o 
+/Users/roger/Library/Android/sdk/ndk/25.0.8775105/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android29 --sysroot=/Users/roger/Library/Android/sdk/ndk/25.0.8775105/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DML_LUMIN -Dtexture_buffer_EXPORTS -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/components -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/base -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/imgui -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/lua -I/Users/roger/MagicLeap/mlsdk/v1.3.0-dev2/samples/c_api/app_framework/build/install/cmake/../ml2/Debug/include -I/Users/roger/Library/Android/sdk/ndk/25.0.8775105/sources/android/native_app_glue -I/Users/roger/MagicLeap/mlsdk/v1.3.0-dev2/cmake/../include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -std=gnu++17 -fPIC -Wall -Werror -MD -MT CMakeFiles/texture_buffer.dir/engine3d/rb_engine.cpp.o -MF CMakeFiles/texture_buffer.dir/engine3d/rb_engine.cpp.o.d -o CMakeFiles/texture_buffer.dir/engine3d/rb_engine.cpp.o -c /Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_engine.cpp
+In file included from /Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_engine.cpp:9:
+In file included from /Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_engine.hpp:11:
+In file included from /Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_math.hpp:11:
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_types.hpp:39:23: error: suggest braces around initialization of subobject [-Werror,-Wmissing-braces]
+    float m[4][4] = { 0 };
+                      ^
+                      {}
+1 error generated.
+[8/50] Building CXX object CMakeFiles/texture_buffer.dir/engine3d/rb_level.cpp.o
+FAILED: CMakeFiles/texture_buffer.dir/engine3d/rb_level.cpp.o 
+/Users/roger/Library/Android/sdk/ndk/25.0.8775105/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android29 --sysroot=/Users/roger/Library/Android/sdk/ndk/25.0.8775105/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DML_LUMIN -Dtexture_buffer_EXPORTS -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/components -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/base -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/imgui -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/lua -I/Users/roger/MagicLeap/mlsdk/v1.3.0-dev2/samples/c_api/app_framework/build/install/cmake/../ml2/Debug/include -I/Users/roger/Library/Android/sdk/ndk/25.0.8775105/sources/android/native_app_glue -I/Users/roger/MagicLeap/mlsdk/v1.3.0-dev2/cmake/../include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -std=gnu++17 -fPIC -Wall -Werror -MD -MT CMakeFiles/texture_buffer.dir/engine3d/rb_level.cpp.o -MF CMakeFiles/texture_buffer.dir/engine3d/rb_level.cpp.o.d -o CMakeFiles/texture_buffer.dir/engine3d/rb_level.cpp.o -c /Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_level.cpp
+In file included from /Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_level.cpp:9:
+In file included from /Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_level.hpp:11:
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_types.hpp:39:23: error: suggest braces around initialization of subobject [-Werror,-Wmissing-braces]
+    float m[4][4] = { 0 };
+                      ^
+                      {}
+1 error generated.
+[9/50] Building CXX object CMakeFiles/texture_buffer.dir/engine3d/rb_mesh.cpp.o
+FAILED: CMakeFiles/texture_buffer.dir/engine3d/rb_mesh.cpp.o 
+/Users/roger/Library/Android/sdk/ndk/25.0.8775105/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android29 --sysroot=/Users/roger/Library/Android/sdk/ndk/25.0.8775105/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DML_LUMIN -Dtexture_buffer_EXPORTS -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/components -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/base -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/imgui -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/lua -I/Users/roger/MagicLeap/mlsdk/v1.3.0-dev2/samples/c_api/app_framework/build/install/cmake/../ml2/Debug/include -I/Users/roger/Library/Android/sdk/ndk/25.0.8775105/sources/android/native_app_glue -I/Users/roger/MagicLeap/mlsdk/v1.3.0-dev2/cmake/../include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -std=gnu++17 -fPIC -Wall -Werror -MD -MT CMakeFiles/texture_buffer.dir/engine3d/rb_mesh.cpp.o -MF CMakeFiles/texture_buffer.dir/engine3d/rb_mesh.cpp.o.d -o CMakeFiles/texture_buffer.dir/engine3d/rb_mesh.cpp.o -c /Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_mesh.cpp
+In file included from /Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_mesh.cpp:9:
+In file included from /Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_mesh.hpp:11:
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_types.hpp:39:23: error: suggest braces around initialization of subobject [-Werror,-Wmissing-braces]
+    float m[4][4] = { 0 };
+                      ^
+                      {}
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_mesh.cpp:44:34: error: suggest braces around initialization of subobject [-Werror,-Wmissing-braces]
+                tris.push_back({ verts[f[0] - 1], verts[f[1] - 1], verts[f[2] - 1] });
+                                 ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+                                 {                                                }
+2 errors generated.
+[10/50] Building CXX object CMakeFiles/texture_buffer.dir/imgui/text_editor.cpp.o
+[11/50] Building CXX object CMakeFiles/texture_buffer.dir/skeleton.cpp.o
+[12/50] Building CXX object CMakeFiles/texture_buffer.dir/main.cpp.o
+FAILED: CMakeFiles/texture_buffer.dir/main.cpp.o 
+/Users/roger/Library/Android/sdk/ndk/25.0.8775105/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android29 --sysroot=/Users/roger/Library/Android/sdk/ndk/25.0.8775105/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DML_LUMIN -Dtexture_buffer_EXPORTS -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/components -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/base -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/imgui -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/lua -I/Users/roger/MagicLeap/mlsdk/v1.3.0-dev2/samples/c_api/app_framework/build/install/cmake/../ml2/Debug/include -I/Users/roger/Library/Android/sdk/ndk/25.0.8775105/sources/android/native_app_glue -I/Users/roger/MagicLeap/mlsdk/v1.3.0-dev2/cmake/../include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -std=gnu++17 -fPIC -Wall -Werror -MD -MT CMakeFiles/texture_buffer.dir/main.cpp.o -MF CMakeFiles/texture_buffer.dir/main.cpp.o.d -o CMakeFiles/texture_buffer.dir/main.cpp.o -c /Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/main.cpp
+In file included from /Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/main.cpp:1:
+In file included from /Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/rb_ide_app.h:18:
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_types.hpp:39:23: error: suggest braces around initialization of subobject [-Werror,-Wmissing-braces]
+    float m[4][4] = { 0 };
+                      ^
+                      {}
+1 error generated.
+[13/50] Building CXX object CMakeFiles/texture_buffer.dir/rb_ide_app.cpp.o
+FAILED: CMakeFiles/texture_buffer.dir/rb_ide_app.cpp.o 
+/Users/roger/Library/Android/sdk/ndk/25.0.8775105/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=x86_64-none-linux-android29 --sysroot=/Users/roger/Library/Android/sdk/ndk/25.0.8775105/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DML_LUMIN -Dtexture_buffer_EXPORTS -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/components -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/base -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/imgui -I/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/lua -I/Users/roger/MagicLeap/mlsdk/v1.3.0-dev2/samples/c_api/app_framework/build/install/cmake/../ml2/Debug/include -I/Users/roger/Library/Android/sdk/ndk/25.0.8775105/sources/android/native_app_glue -I/Users/roger/MagicLeap/mlsdk/v1.3.0-dev2/cmake/../include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -fno-limit-debug-info  -std=gnu++17 -fPIC -Wall -Werror -MD -MT CMakeFiles/texture_buffer.dir/rb_ide_app.cpp.o -MF CMakeFiles/texture_buffer.dir/rb_ide_app.cpp.o.d -o CMakeFiles/texture_buffer.dir/rb_ide_app.cpp.o -c /Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/rb_ide_app.cpp
+In file included from /Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/rb_ide_app.cpp:1:
+In file included from /Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/rb_ide_app.h:18:
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/engine3d/rb_types.hpp:39:23: error: suggest braces around initialization of subobject [-Werror,-Wmissing-braces]
+    float m[4][4] = { 0 };
+                      ^
+                      {}
+/Users/roger/Data/Projects/MagicLeap/ml2-engine3d/app/src/main/cpp/rb_ide_app.cpp:83:21: error: 'MLHandTrackingCreate' is deprecated: Replaced by MLHandTrackingCreateEx. [-Werror,-Wdeprecated-declarations]
+    UNWRAP_MLRESULT(MLHandTrackingCreate(&m_hand_tracker));
+                    ^
+/Users/roger/MagicLeap/mlsdk/v1.3.0-dev2/cmake/../include/ml_hand_tracking.h:259:1: note: 'MLHandTrackingCreate' has been explicitly marked deprecated here
+ML_DEPRECATED_MSG("Replaced by MLHandTrackingCreateEx.")
+^
+/Users/roger/MagicLeap/mlsdk/v1.3.0-dev2/cmake/../include/ml_api.h:48:47: note: expanded from macro 'ML_DEPRECATED_MSG'
+#define ML_DEPRECATED_MSG(msg) __attribute__((deprecated(msg)))
+                                              ^
+2 errors generated.
+ninja: build stopped: subcommand failed.

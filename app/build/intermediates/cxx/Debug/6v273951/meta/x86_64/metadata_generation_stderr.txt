@@ -1,0 +1,2 @@
+Found MagicLeap SDK at /Users/roger/MagicLeap/mlsdk/v1.3.0-dev2/cmake/..
+Found MagicLeap AppFramework at /Users/roger/MagicLeap/mlsdk/v1.3.0-dev2/samples/c_api/app_framework/build/install

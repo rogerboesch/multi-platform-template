@@ -1,0 +1,23 @@
+# ninja log v5
+1	75	1695722607198767970	CMakeFiles/MyMLApp.dir/base/rb_log.c.o	7e337970872631e7
+5	934	1695725020469752768	CMakeFiles/MyMLApp.dir/myapp/ml_myapp.cpp.o	db8806bd28f3d348
+5	149	1695724999700404311	CMakeFiles/MyMLApp.dir/myapp/myapp.cpp.o	f03935b87bb70f7b
+3	86	1695722607210825030	CMakeFiles/MyMLApp.dir/base/rb_vtext.c.o	c53856e9207f7466
+3	390	1695723100456435277	CMakeFiles/MyMLApp.dir/myapp/rb_file.cpp.o	3bd1f671b8cffd84
+1	101	1695722607225968511	CMakeFiles/native_app_glue.dir/Users/roger/Library/Android/sdk/ndk/25.0.8775105/sources/android/native_app_glue/android_native_app_glue.c.o	fd2ca1cc8f8a9187
+3	183	1695722628399690000	libnative_app_glue.a	efd7fdd23a948cb7
+5	834	1695722607952299893	CMakeFiles/MyMLApp.dir/imgui/text_editor.cpp.o	1020b0de243d1e37
+5	50	1695725087336506151	CMakeFiles/MyMLApp.dir/base/rb_log.c.o	d963037878b865e3
+5	58	1695725087343907143	CMakeFiles/MyMLApp.dir/base/rb_vtext.c.o	c66adbd7f66d6d42
+5	66	1695725087352325550	CMakeFiles/MyMLApp.dir/myapp/myapp.cpp.o	fdac0020cd9bf841
+5	85	1695725087369252490	CMakeFiles/native_app_glue.dir/Users/roger/Library/Android/sdk/ndk/25.0.8775105/sources/android/native_app_glue/android_native_app_glue.c.o	c289ffac1fa503c9
+85	138	1695725087425090000	libnative_app_glue.a	efd7fdd23a948cb7
+5	528	1695725087811557750	CMakeFiles/MyMLApp.dir/myapp/rb_file.cpp.o	f780712902aacf52
+5	861	1695725088143359841	CMakeFiles/MyMLApp.dir/main.cpp.o	842101a5e90a94f4
+5	927	1695725088205239523	CMakeFiles/MyMLApp.dir/imgui/text_editor.cpp.o	90a25fd9031bb3aa
+5	1106	1695725088386391614	CMakeFiles/MyMLApp.dir/myapp/ml_myapp.cpp.o	af015dce83980cf
+10	160	1695725396565524963	CMakeFiles/MyMLApp.dir/myapp/myapp.cpp.o	fdac0020cd9bf841
+11	1058	1695725397458450473	CMakeFiles/MyMLApp.dir/myapp/ml_myapp.cpp.o	af015dce83980cf
+5	45	1695725612229584376	CMakeFiles/MyMLApp.dir/myapp/myapp.cpp.o	fdac0020cd9bf841
+6	889	1695725613068444447	CMakeFiles/MyMLApp.dir/myapp/ml_myapp.cpp.o	af015dce83980cf
+889	1049	1695725613160040304	/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/build/intermediates/cxx/Debug/6v273951/obj/x86_64/libMyMLApp.so	aace87a4d35a4e2c

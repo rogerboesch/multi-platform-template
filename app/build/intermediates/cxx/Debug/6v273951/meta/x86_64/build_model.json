@@ -1,0 +1,169 @@
+{
+  "abi": "X86_64",
+  "info": {
+    "abi": "X86_64",
+    "bitness": 64,
+    "deprecated": false,
+    "default": true
+  },
+  "cxxBuildFolder": "/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/.cxx/Debug/6v273951/x86_64",
+  "soFolder": "/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/build/intermediates/cxx/Debug/6v273951/obj/x86_64",
+  "soRepublishFolder": "/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/build/intermediates/cmake/ml2Debug/obj/x86_64",
+  "abiPlatformVersion": 29,
+  "cmake": {
+    "effectiveConfiguration": {
+      "inheritEnvironments": [],
+      "variables": []
+    }
+  },
+  "variant": {
+    "buildSystemArgumentList": [
+      "-DANDROID_STL\u003dc++_static"
+    ],
+    "cFlagsList": [],
+    "cppFlagsList": [],
+    "variantName": "ml2Debug",
+    "soFolder": "/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/build/intermediates/cxx/Debug/6v273951/obj",
+    "soRepublishFolder": "/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/build/intermediates/cmake/ml2Debug/obj",
+    "cxxBuildFolder": "/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/.cxx/Debug/6v273951",
+    "intermediatesFolder": "/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/build/intermediates/cxx/Debug/6v273951",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "X86_64"
+    ],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "module": {
+      "cxxFolder": "/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/.cxx",
+      "intermediatesBaseFolder": "/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/build/intermediates",
+      "intermediatesFolder": "/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/build/intermediates/cxx",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "/Users/roger/Data/Projects/Strategic/multi-platform-empty/app",
+      "moduleBuildFile": "/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/build.gradle",
+      "makeFile": "/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/cpp/CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "ndkFolder": "/Users/roger/Library/Android/sdk/ndk/25.0.8775105",
+      "ndkVersion": "25.0.8775105",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkMetaPlatforms": {
+        "min": 19,
+        "max": 33,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30,
+          "S": 31,
+          "Sv2": 32,
+          "Tiramisu": 33
+        }
+      },
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "cmakeToolchainFile": "/Users/roger/Library/Android/sdk/ndk/25.0.8775105/build/cmake/android.toolchain.cmake",
+      "cmake": {
+        "isValidCmakeAvailable": true,
+        "cmakeExe": "/opt/homebrew/bin/cmake",
+        "minimumCmakeVersion": "3.22.1",
+        "ninjaExe": "/opt/homebrew/bin/ninja"
+      },
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "/Users/roger/Library/Android/sdk/ndk/25.0.8775105/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/arm-linux-androideabi/libc++_shared.so",
+          "ARM64_V8A": "/Users/roger/Library/Android/sdk/ndk/25.0.8775105/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/aarch64-linux-android/libc++_shared.so",
+          "X86": "/Users/roger/Library/Android/sdk/ndk/25.0.8775105/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/i686-linux-android/libc++_shared.so",
+          "X86_64": "/Users/roger/Library/Android/sdk/ndk/25.0.8775105/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/lib/x86_64-linux-android/libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      },
+      "project": {
+        "rootBuildGradleFolder": "/Users/roger/Data/Projects/Strategic/multi-platform-empty",
+        "sdkFolder": "/Users/roger/Library/Android/sdk",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isPrefabEnabled": false
+      },
+      "nativeBuildOutputLevel": "QUIET"
+    },
+    "prefabClassPathFileCollection": [],
+    "prefabPackageDirectoryListFileCollection": [],
+    "stlType": "c++_static",
+    "optimizationTag": "Debug"
+  },
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "prefabFolder": "/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/.cxx/Debug/6v273951/prefab/x86_64",
+  "isActiveAbi": true,
+  "fullConfigurationHash": "6v2739511s1c53u3w6a2o4b3g35o2r566r5i335u6c3q2n5v4d3h533e6b4n2e",
+  "configurationArguments": [
+    "-H/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/src/main/cpp",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_SYSTEM_VERSION\u003d29",
+    "-DANDROID_PLATFORM\u003dandroid-29",
+    "-DANDROID_ABI\u003dx86_64",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003dx86_64",
+    "-DANDROID_NDK\u003d/Users/roger/Library/Android/sdk/ndk/25.0.8775105",
+    "-DCMAKE_ANDROID_NDK\u003d/Users/roger/Library/Android/sdk/ndk/25.0.8775105",
+    "-DCMAKE_TOOLCHAIN_FILE\u003d/Users/roger/Library/Android/sdk/ndk/25.0.8775105/build/cmake/android.toolchain.cmake",
+    "-DCMAKE_MAKE_PROGRAM\u003d/opt/homebrew/bin/ninja",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/build/intermediates/cxx/Debug/6v273951/obj/x86_64",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/build/intermediates/cxx/Debug/6v273951/obj/x86_64",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-B/Users/roger/Data/Projects/Strategic/multi-platform-empty/app/.cxx/Debug/6v273951/x86_64",
+    "-GNinja",
+    "-DANDROID_STL\u003dc++_static"
+  ]
+}
