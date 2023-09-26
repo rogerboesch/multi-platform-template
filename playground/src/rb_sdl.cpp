@@ -27,9 +27,9 @@ extern "C" {
 }
 
 extern "C" {
-    void app_start();
-    void app_frame();
-    void app_stop();
+    void on_app_start();
+    void on_app_frame();
+    void on_app_stop();
     rgb_color app_get_palette_color(byte color, byte brightness);
 }
 
@@ -309,7 +309,7 @@ bool _sdl_route_key_event(SDL_Event event) {
 int _sdl_run() {
     _quit = false;
 
-    app_start();
+    on_app_start();
 
     Uint32 next_frame = SDL_GetTicks() + _time_per_frame;
 
@@ -348,7 +348,7 @@ int _sdl_run() {
         if (!_quit) {
             SDL_RenderClear(_renderer);
             
-            app_frame();
+            on_app_frame();
 
             SDL_UpdateTexture(_texture, NULL, _pixels, _buffer_width * sizeof(Uint32));
             SDL_RenderCopy(_renderer, _texture, NULL, NULL);
@@ -367,7 +367,7 @@ int _sdl_run() {
         }
     }
 
-    app_stop();
+    on_app_stop();
 
     return 0;
 }
