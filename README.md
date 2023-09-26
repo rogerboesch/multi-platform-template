@@ -2,11 +2,9 @@
 
 This is a template that supports pixel/line based games and apps on macOS, Windows, Linux AND Magic Leap 2
 
-## Build code
+## Magic Leap 2
 
-### Magic Leap 2
-
-#### Prerequisites
+### Prerequisites
 
 Refer to https://developer.magicleap.cloud/learn/docs/guides/native/capi-getting-started
 
@@ -40,44 +38,44 @@ Don't change in the original, but in the install folder %MAGICLEAP_APP_FRAMEWORK
 
 ```
 
-#### Build
+### Build
 
 ```sh
 $ gradlew assembleDebug
 ```
 
-#### Install on Magic Leap 2 device
+### Install app on device
 
 ```sh
 $ adb install app/build/outputs/apk/ml2/debug/com.magicleap.rbo.MyApp-debug.apk
 ```
 
-#### Launch on Magic Leap 2 device
+### Launch app on device
 
 ```sh
 $ adb shell am start -a android.intent.action.MAIN -n com.magicleap.rbo.MyApp/android.appNativeActivity
 ```
 
-#### Log
+### Log from device
 
 ```sh
 $ adb logcat -s "MyApp"
 ```
 
-#### Stop app
+### Stop app on device
 
 ```sh
 $ adb shell am force-stop com.magicleap.rbo.MyApp
 ```
 
-#### Remove from Magic Leap 2 Device
+### Remove app from device
 
 ```sh
 $ adb uninstall com.magicleap.rbo.MyApp
 ```
 
 
-### macOS
+## macOS
 
 To build ```MyApp.app``` you have to install ```SDL2``` on your macOS machine. For this I use homebrew (package manager).
 
@@ -96,7 +94,7 @@ after that create the XCode project with
 Now you have a XCode solution ```MyApp.sln``` file which you can use in the ```build``` folder.
 
 
-# Windows 10/11
+## Windows 10/11
 
 1. Download SDL2 from https://github.com/libsdl-org/SDL/releases/download/release-2.26.2/SDL2-devel-2.26.2-VC.zip
 2. Copy the folder SDL2-2.26.2 to a folder (ex. C:\Dev)
@@ -117,7 +115,8 @@ Now you have a Visual Studio solution file ```MyApp.sln``` which you can use in 
 To execute ```MyApp.exe``` from within Visual Studio, ```SDL2.dll``` has to be in the same folder as the executable.
 
 
-# Linux
+## Linux
+
 To build Playground you have to install SDL2 on your Linux machine.
 
 ```sh
