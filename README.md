@@ -1,6 +1,6 @@
 # Multiplatform template 
 
-This is a template that supports pixel/line based games and apps on macOS, Windows, Linux AND Magic Leap 2
+This is a template that supports pixel/line based games and apps on Magic Leap 2, macOS, Windows and Linux
 
 ## Magic Leap 2
 
@@ -142,3 +142,60 @@ After you can execute it directly
 ```sh
     $ ./MyApp
 ```
+
+## Your App
+
+There is already a template app file in the folder ```app\src\main\cpp\myapp```
+
+This is the starting point where you can add your platform independent app/game logic.
+
+
+```c++
+#include "rb_base.h"
+#include "rb_platform.h"
+
+extern "C" {
+    void on_app_start() {                                               // 1.)
+        // Called when app starts
+
+        // platform_on_init() must be called here
+        platform_on_init("MyApp", 320, 240);                            // 2.)
+    }
+    void on_app_frame() {                                               // 3.)
+        // Called every frame
+    }
+    void on_app_stop() {                                                // 4.)
+        // Called before app quits
+    }
+
+    void on_app_key_pressed(int code, int state) {                      // 5.)
+        // Handle key pressed
+    }
+
+    rgb_color app_get_palette_color(byte color, byte brightness) {      // 6.)
+        // Return palette color
+        return { 255, 0, 0 };
+    }
+}
+```
+
+1. This function gets called on app start
+2. It's essential that you callback platform_init() (see below) inside of this function
+3. This function gets called every frame (normally 60fps)
+4. This function gets called before the app quits
+5. This function gets called when a key is pressed. The values from other input devices will also be translated to "key codes"
+6. The entire template works with palette colors. From this function you have to deliver RGB values for the palette color given 
+
+So those are the interface functions between the template and your code.
+On the other hand there are several platform functions you can call.
+The most important you find below: 
+
+```c++
+    void platform_on_init(const char* name, int width, int height);                     // 1.)
+    void platform_set_pixel(int x, int y, byte color, int brightness);                  // 2.)
+    void platform_draw_line(int x1, int y1, int x2, int y2, byte color, int invert);    // 3.)
+```
+
+1. Initialize MyApp by pass an app name, screen with and height
+2. Draw a pixel (used for raster graphic games/apps)
+3. Draw a line (used for vector based games/apps)

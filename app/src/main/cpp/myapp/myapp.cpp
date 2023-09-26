@@ -23,5 +23,4 @@ extern "C" {
         // Return palette color
         return { 255, 0, 0 };
     }
-
 }
