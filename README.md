@@ -117,7 +117,7 @@ Now you have a Visual Studio solution file ```MyApp.sln``` which you can use in 
 To execute ```MyApp.exe``` from within Visual Studio, ```SDL2.dll``` has to be in the same folder as the executable.
 
 
-# Build from Source for Linux
+# Linux
 To build Playground you have to install SDL2 on your Linux machine.
 
 ```sh
